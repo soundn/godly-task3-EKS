@@ -5,9 +5,8 @@ This project sets up an Amazon EKS cluster with a microservice application runni
 ## Structure
 
 - `terraform/`: Terraform code for creating the EKS cluster
-- `helm/`: Helm charts for Prometheus and Grafana
-- `kubernetes/`: Kubernetes manifests for deployments, services, and HPAs
-- `scripts/`: Utility scripts for deployment and setup
+- `prom-grafana-helm/`: Helm charts for Prometheus and Grafana
+- `app-service-HPA-deploy-EKS/`: Kubernetes manifests for deployments, services, and HPAs
 
 ## Setup
 
