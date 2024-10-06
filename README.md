@@ -18,20 +18,10 @@ This project sets up an Amazon EKS cluster with a microservice application runni
    terraform apply
    ```
 
-2. Deploy application:
-   ```
-   ./scripts/deploy.sh
-   ```
-
-3. Setup monitoring:
-   ```
-   ./scripts/setup-monitoring.sh
-   ```
-
 ## Monitoring
 
-Access Grafana dashboard at: [Your Grafana URL]
+Access Grafana dashboard at: 
 
 ## Autoscaling
 
-The application uses HPA for autoscaling based on custom metrics. See `kubernetes/hpa/boardgame-hpa.yaml` for details.
+The application uses HPA for autoscaling based on custom metrics. See `app-service-HPA-deploy-EKS/hpa/hpa.yml` for details.
